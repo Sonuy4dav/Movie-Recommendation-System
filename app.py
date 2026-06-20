@@ -7,7 +7,7 @@ app = Flask(__name__)
 movies = pickle.load(open('movie_list.pkl', 'rb'))
 similarity = pickle.load(open('similarity.pkl', 'rb'))
 
-API_KEY = "777af98637714bfa683c149ee0bc766f"
+API_KEY = "Your_tmdb_api_key"
 
 
 def fetch_poster(movie_id):
