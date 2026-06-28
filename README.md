@@ -98,21 +98,4 @@ http://127.0.0.1:5000
 * Recommendation history
 * Deployment on cloud platforms
 
-## 📸 Screenshots
-
-Add your project screenshots here.
-
-```text
-screenshots/homepage.png
-screenshots/recommendations.png
-```
-
-## 👨‍💻 Author
-
-**Sonu Yadav**
-
-* Aspiring AI/ML Engineer
-* B.Tech Student
-* Passionate about Artificial Intelligence, Machine Learning, and Data Science
-
 ## ⭐ If you found this project useful, consider giving it a star!
