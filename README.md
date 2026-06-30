@@ -1,24 +1,31 @@
-# Movie-Recommendation-System
+# 🎬 Movie Recommendation System
 
-A content-based Movie Recommendation System built using **Python, Machine Learning, Flask, and TMDB API**. This application recommends similar movies based on movie metadata and displays movie posters through the TMDB API.
+A **Content-Based Movie Recommendation System** built using **Python, Machine Learning, Flask, and TMDB API**. This project recommends movies similar to a user's selected movie by analyzing movie metadata and calculating similarity scores using **Cosine Similarity**. The application also displays movie posters fetched dynamically from the TMDB API.
+
+---
 
 ## 🚀 Features
 
-* Search and select movies
-* Get top 5 similar movie recommendations
-* Display movie posters using TMDB API
-* Interactive web interface built with Flask
-* Content-based filtering using cosine similarity
+* 🔍 Search and select movies
+* 🎥 Get top 5 similar movie recommendations
+* 🖼️ Display movie posters using the TMDB API
+* 🌐 Interactive web application built with Flask
+* 🧠 Content-based recommendation using cosine similarity
+* 🎨 Responsive and user-friendly interface
+
+---
 
 ## 🛠️ Tech Stack
 
-* Python
-* Flask
-* Pandas
-* Scikit-learn
-* HTML/CSS
-* TMDB API
-* Pickle
+* **Python**
+* **Flask**
+* **Pandas**
+* **Scikit-learn**
+* **HTML/CSS**
+* **TMDB API**
+* **Pickle**
+
+---
 
 ## 📂 Project Structure
 
@@ -38,22 +45,25 @@ Movie-Recommendation-System/
 └── README.md
 ```
 
-## ⚙️ Installation
+---
 
-### Clone the repository
+## ⚙️ Installation & Setup
+
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/Movie-Recommendation-System.git
+
 cd Movie-Recommendation-System
 ```
 
-### Install dependencies
+### 2. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Extract the similarity file
+### 3. Extract the Similarity File
 
 Extract:
 
@@ -61,7 +71,7 @@ Extract:
 similarity.zip → similarity.pkl
 ```
 
-### Run the application
+### 4. Run the Application
 
 ```bash
 python app.py
@@ -73,29 +83,52 @@ Open your browser and visit:
 http://127.0.0.1:5000
 ```
 
+---
+
 ## 🧠 How It Works
 
-1. Movie metadata is processed and converted into feature vectors.
-2. Cosine similarity is calculated between all movies.
-3. When a user selects a movie, the system finds the most similar movies.
-4. Movie posters are fetched dynamically using the TMDB API.
+1. Movie metadata is preprocessed and converted into feature vectors.
+2. Cosine similarity is computed between all movies.
+3. The user selects a movie from the search interface.
+4. The system identifies and recommends the most similar movies.
+5. Movie posters are retrieved dynamically using the TMDB API.
 
-## ✨ Features Implemented
+---
+
+## ✨ Implemented Features
 
 * Content-based recommendation engine
-* Similarity matrix using cosine similarity
-* Flask backend
-* Responsive frontend
-* Movie poster integration
-* Search functionality
+* Cosine similarity matrix
+* Flask backend integration
+* Interactive frontend UI
+* Movie poster retrieval via TMDB API
+* Search and recommendation functionality
 
-## 🔮 Future Improvements
+---
 
-* User authentication
-* Collaborative filtering
+## 🔮 Future Enhancements
+
+* User authentication and profiles
+* Collaborative filtering recommendations
 * Hybrid recommendation system
 * Movie ratings and reviews
 * Recommendation history
-* Deployment on cloud platforms
+* Cloud deployment and scalability improvements
 
-## ⭐ If you found this project useful, consider giving it a star!
+---
+
+
+---
+
+## 👨‍💻 Author
+
+**Sonu Yadav**
+
+* Aspiring AI/ML Engineer
+* B.Tech Student
+* Passionate about Artificial Intelligence, Machine Learning, and Data Science
+
+---
+
+⭐ If you found this project useful, consider giving it a star!
+
